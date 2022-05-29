@@ -1,0 +1,23 @@
+#! /bin/bash
+
+read ANS
+
+#YES="yes"
+#NO="no"
+
+if [ "$ANS" = "yes" ]
+then
+echo "that's nice"
+exit 1
+
+elif [ "$ANS" = "no" ]
+
+then
+echo "I'm sorry to hear that"
+exit 1
+else
+
+
+echo unknown argument provided
+fi
+
